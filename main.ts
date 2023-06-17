@@ -1,6 +1,6 @@
 import { Plugin } from 'obsidian'
 
-export default class ExamplePlugin extends Plugin{
+export default class ExamplePlugin extends Plugin {
 	statusBarTextElement: HTMLSpanElement;
 
 	onload() {
@@ -9,18 +9,21 @@ export default class ExamplePlugin extends Plugin{
 		this.statusBarTextElement = this.addStatusBarItem().createEl('span');
 		this.readActiveFileAndUpdateLineCount();
 
-		
+		// Adding an icon to the side bar
+		this.addRibbonIcon("dice", "Get Previous File", () => {
+			console.log("Hello, you!");
+		});
+
 		// this.statusBarTextElement.textContent = "hello World";
 
 		this.app.workspace.on('active-leaf-change', async () => {
 			this.readActiveFileAndUpdateLineCount();
-
 		});
 
 		this.app.workspace.on('editor-change', editor => {
 			const content = editor.getDoc().getValue();
 			this.updateLineCount(content);
-		})
+		});
 	}
 
 	private updateLineCount(fileContent?: string) {
@@ -38,5 +41,4 @@ export default class ExamplePlugin extends Plugin{
 			this.updateLineCount(undefined);
 		}
 	}
-
  }
