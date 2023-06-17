@@ -11,7 +11,7 @@ export default class ExamplePlugin extends Plugin {
 
 		// Adding an icon to the side bar
 		this.addRibbonIcon("dice", "Get Previous File", () => {
-			console.log("Hello, you!");
+			console.log("Hello from the side bar ribbons!");
 		});
 
 		// this.statusBarTextElement.textContent = "hello World";
