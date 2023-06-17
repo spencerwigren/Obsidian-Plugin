@@ -5,7 +5,7 @@ This project is to introduce me to the Obsidian API and typescript
 This project will add a line counter to obsidan. Along with creating a new object in the side ribbion
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/fD7u1hTjvQg)
 
 # Development Environment
 
