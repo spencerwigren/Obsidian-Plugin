@@ -1,4 +1,40 @@
-# Obsidian Sample Plugin
+# Overview
+
+This project is to introduce me to the Obsidian API and typescript 
+
+This project will add a line counter to obsidan. Along with creating a new object in the side ribbion
+
+
+[Software Demo Video](http://youtube.link.goes.here)
+
+# Development Environment
+
+Node.js
+Visual Studio Code
+Typescript
+Obsidian.md
+
+# Useful Websites
+
+{Make a list of websites that you found helpful in this project}
+
+- [Obsidian.md](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin)
+
+
+# Future Work
+
+1. Improve upton the main idea 
+2. Add more user visiablity in the plugin
+
+
+### Code Tutorial The Project is based off of
+My code is many based off this tutoral found on youtube
+[Code video](https://www.youtube.com/watch?v=AgXa03ZxJ88&list=WL&index=45)
+
+
+
+
+## Obsidian Sample Plugin
 
 This is a sample plugin for Obsidian (https://obsidian.md).
 
